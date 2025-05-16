@@ -1,2 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
+.card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+    max-width: 350px;
+}
 
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.mensaje {
+    margin-top: 15px;
+    background: #ffe4e4;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.oculto {
+    display: none;
+}
